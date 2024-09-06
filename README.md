@@ -25,7 +25,9 @@ UBUNTU SERVER :<br>
 6. Change IP and the secret key : <br>
 #vim main.py <br>
 </t>   #? CHANGE ME <br>
+</t>   #i
 </t>   change the value inside ''<br>
+</t>   Press ESC
 </t>   #<shift> G <br>
 </t>   change the IP adress and port value if needed<br>
 </t>   #:wq
