@@ -22,7 +22,7 @@ UBUNTU SERVER :<br>
 5. Install Frameworks : <br>
 #pip3 install -r requirements.txt
 
-6. Change the IP and the secret key (with vim): <br>
+6. Change the IP and the secret key (with vim) : <br>
 #vim main.py <br>
 </t>   #? CHANGE ME <br>
 </t>   #i
