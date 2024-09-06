@@ -42,8 +42,8 @@ UBUNTU SERVER :<br>
 <h2> Create your first account :</h2>
 <br>
 1. Go to instance dir :<br>
-#cd instance/
-#python3 admin_panel_acc_creation.py
+#cd instance/<br>
+#python3 admin_panel_acc_creation.py<br>
 follow the instructions <br>
 example :<br>
 </t> login : admin <br>
