@@ -36,6 +36,19 @@ UBUNTU SERVER :<br>
  
 7. Start the website :<br>
 #python3 main.py
+<br>
 
+
+<h2> Create your first account :</h2>
+<br>
+1. Go to instance dir :<br>
+#cd instance/
+#python3 admin_panel_acc_creation.py
+follow the instructions <br>
+example :<br>
+</t> login : admin <br>
+</t> password : 1234 <br>
+</t> if admin press 1; if moderator press 0 : 1 <br>
+</t> DONE :) !<br>
 
 GLHF ! 
