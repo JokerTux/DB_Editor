@@ -27,7 +27,7 @@ UBUNTU SERVER :<br>
 </t>   #? CHANGE ME <br>
 </t>   change the value inside ''<br>
 </t>   #<shift> G <br>
-</t>   #change the IP adress value<br>
+</t>   change the IP adress and port value if needed<br>
 </t>   #:wq
  
 7. Start the website :<br>
