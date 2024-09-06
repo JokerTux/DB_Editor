@@ -9,7 +9,7 @@ def main():
     login = input('login : ')
     password = input('password : ')
     password = generate_password_hash(password)
-    admin = input('if admin press 1 if moderator press 0 : ')
+    admin = input('if admin press 1; if moderator press 0 : ')
     active = False
     try:
         cur.execute("INSERT INTO user(username, password, admin, active) VALUES(?,?,?,?)",(login, password, admin, active))
