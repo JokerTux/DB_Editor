@@ -1,55 +1,84 @@
+
 # DB_editor
-<h2> Installation :</h2>
-UBUNTU SERVER :<br>
 
-1. Update your system :<br>
-#sudo apt-get update<br>
-#sudo apt-get upgrade
+## Installation:
 
-2. Create a directory :<br>
-#mkdir my_app<br>
-#cd my_app/
+### Ubuntu Server:
 
-3. Clone project :<br>
-#git clone https://github.com/JokerTux/DB_editor.git
+1. **Update your system:**
 
-4. Install Python Virtual env. :<br>
-#sudo apt-get install python3.12-venv<br>
-#python3 -m venv .venv<br>
-#source .venv/bin/activate<br>
-#cd DB_editor/
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
 
-5. Install Frameworks : <br>
-#pip3 install -r requirements.txt
+2. **Create a directory:**
 
-6. Change the IP and the secret key (with vim) : <br>
-#vim main.py <br>
-</t>   #? CHANGE ME <br>
-</t>   #i <br>
-</t>   change the value inside ''<br>
-</t>   Press ESC <br>
-</t>   #<shift> G <br>
-</t>   #i<br>
-</t>   change the IP adress and port value if needed<br>
-</t>   Press ESC <br>
-</t>   #:wq
- 
-7. Start the website :<br>
-#python3 main.py
-<br>
+```bash
+mkdir my_app
+cd my_app/
+```
 
+3. **Clone the project:**
 
-<h2> Create your first account :</h2>
-<br>
-1. Go to the instance dir :<br>
-#cd instance/<br><br>
-2. Run the register script "admin_panel_acc_creation.py" :<br>
-#python3 admin_panel_acc_creation.py<br>
-follow the instructions <br><br><br>
-example :<br>
-</t> login : admin <br>
-</t> password : 1234 <br>
-</t> if admin press 1; if moderator press 0 : 1 <br>
-</t> DONE :) !<br><br><br><br>
+```bash
+git clone https://github.com/JokerTux/DB_editor.git
+```
 
-GLHF ! 
+4. **Install Python Virtual Environment:**
+
+```bash
+sudo apt-get install python3.12-venv
+python3 -m venv .venv
+source .venv/bin/activate
+cd DB_editor/
+```
+
+5. **Install the required frameworks:**
+
+```bash
+pip3 install -r requirements.txt
+```
+
+6. **Change the IP and secret key (with vim):**
+
+```bash
+vim main.py
+```
+
+- Search for `#? CHANGE ME`
+- Press `i` to enter insert mode and change the value inside `''`
+- Press `ESC`
+- Scroll to the bottom by pressing `G`
+- Press `i` again to change the IP address and port if needed
+- Press `ESC` and type `:wq` to save and quit
+
+7. **Start the website:**
+
+```bash
+python3 main.py
+```
+
+## Create your first account:
+
+1. Go to the `instance` directory:
+
+```bash
+cd instance/
+```
+
+2. Run the register script `admin_panel_acc_creation.py`:
+
+```bash
+python3 admin_panel_acc_creation.py
+```
+
+- Follow the instructions provided.
+
+Example:
+
+- **Login:** `admin`
+- **Password:** `1234`
+- If **admin**, press `1`; if **moderator**, press `0`: `1`
+
+**DONE!** :)
