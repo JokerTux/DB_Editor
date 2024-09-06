@@ -17,7 +17,7 @@ UBUNTU SERVER :<br>
 #sudo apt-get install python3.12-venv<br>
 #python3 -m venv .venv<br>
 #source .venv/bin/activate<br>
-#cd my_app/
+#cd DB_editor/
 
 5. Install Frameworks : <br>
 #pip3 install -r requirements.txt
