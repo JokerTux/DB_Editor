@@ -27,7 +27,7 @@ UBUNTU SERVER :<br>
 </t>   #? CHANGE ME <br>
 </t>   #i
 </t>   change the value inside ''<br>
-</t>   Press ESC
+</t>   Press ESC <br>
 </t>   #<shift> G <br>
 </t>   change the IP adress and port value if needed<br>
 </t>   #:wq
