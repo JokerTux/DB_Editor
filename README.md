@@ -22,6 +22,7 @@ cd my_app/
 3. **Clone the project:**
 
 ```bash
+sudo apt-get install git
 git clone https://github.com/JokerTux/DB_editor.git
 ```
 
