@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Admin page</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='favicon.ico') }}" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static',filename='styles/admin_panel.css') }}" rel="stylesheet" />
+    </head>
+    <body class="index_background">
+
+		{% with messages = get_flashed_messages() %}
+		{% if messages %}
+			{% for message in messages %}
+			
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+	<strong>{{ message }} </strong>
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+			{% endfor %}
+			{% endif %}
+			{% endwith %}
+
+
+        <div class="wrapper">
+                <div class="logo">
+			<center><img src="{{url_for('static', filename='index_logo.png')}}" /> </center>
+                </div>
+		<form action="/login" method="POST">
+                <div class="text-center mt-4 name">
+			<font color="white"><h3>Login :</h3></font>
+		{{ form.hidden_tag() }}
+		{{ form.username.lable }}
+		{{ form.username(class="form-lable") }}
+		<br>
+		{{ form.password.lable }}
+		{{ form.password(class="form-lable") }}
+		<br>	
+		{{ form.submit(class="btn btn-primary") }}	
+		    </div>
+
+		</form>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{url_for('static', filename='js/scripts.js')}}"></script>
+    </body>
+</html>

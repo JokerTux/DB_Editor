@@ -1,0 +1,25 @@
+{% extends 'admin_panel.html' %}
+{% block content %}
+<h2>Orders</h2>
+<table class="table table-striped">
+<tr>
+	<th>id </th>
+	<th>service </th>
+	<th>comment </th>
+	<th>name </th>
+	<th>date </th>
+	<th>price </th>
+	<th>phone nr</th>
+	<th>avatar </th>
+</tr>
+{% for row in rows  %}
+<tr>
+	{% for data in row %}
+	<td> {{ data }} </td> 
+	{% endfor %}
+</tr>
+{% endfor  %}
+<h2>Total amount : {{ total_amount }} zl </h2>
+</table>
+
+{% endblock %}

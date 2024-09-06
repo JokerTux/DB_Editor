@@ -1,0 +1,35 @@
+{% extends 'admin_panel.html' %}
+{% block content %}
+<h2>{{ nickname }} orders</h2>
+<h4>Username :</h4>
+<nav class="navbar navbar-light bg-light">
+<form action="/search_by_name" method="POST">
+	{{ form.hidden_tag()  }}
+	{{ form.username.lable }}
+	{{ form.username(class="search_button") }}
+	<br>
+	{{ form.submit(class="btn btn-primary") }}
+  </form>
+</nav>
+<h2> ORDERS :</h2>
+<table class="table table-striped">
+<tr>
+	<th>id </th>
+	<th>service </th>
+	<th>comment </th>
+	<th>name </th>
+	<th>date </th>
+	<th>price </th>
+	<th>phone nr</th>
+	<th>avatar </th>
+</tr>
+{% for information in user_results %}
+
+<tr>
+	{% for data in information %}
+	<td> {{ data }} </td> 
+	{% endfor %}
+</tr>
+{% endfor  %}
+</table>
+{% endblock %}

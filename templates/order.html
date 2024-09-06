@@ -1,0 +1,26 @@
+{% extends 'admin_panel.html' %}
+{% block content %}
+<h2>Order</h2>
+<form action="/order" method="POST">
+	<div>
+	{{ form.hidden_tag() }}
+Service :
+	{{ form.service.lable }}
+	{{ form.service(class="form-control form-control") }}
+Comment :
+	{{ form.comment.lable }}
+	{{ form.comment(class="form-control form-control") }}
+Username :
+	{{ form.username.lable }}
+	{{ form.username(class="form-control form-control") }}
+Price :
+	{{ form.price.lable }}
+	{{ form.price(class="form-control form-control") }}
+Phone number :
+	{{ form.phone_number.lable }}
+	{{ form.phone_number(class="form-control form-control") }}
+	
+	{{ form.submit() }}
+	</div>
+</form>
+{% endblock %}
