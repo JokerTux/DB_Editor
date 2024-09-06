@@ -13,7 +13,7 @@ UBUNTU SERVER :<br>
 3. Clone project :<br>
 #git clone https://github.com/JokerTux/DB_editor.git
 
-4. Install Virtual env. :<br>
+4. Install Python Virtual env. :<br>
 #sudo apt-get install python3.12-venv<br>
 #python3 -m venv .venv<br>
 #source .venv/bin/activate<br>
