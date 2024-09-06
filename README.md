@@ -43,7 +43,7 @@ UBUNTU SERVER :<br>
 <br>
 1. Go to instance dir :<br>
 #cd instance/<br>
-2. Run the register script "admin_panel_acc_creation.py"<br>
+2. Run the register script "admin_panel_acc_creation.py"<br><br>
 #python3 admin_panel_acc_creation.py<br>
 follow the instructions <br><br>
 example :<br>
