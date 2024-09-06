@@ -43,8 +43,8 @@ UBUNTU SERVER :<br>
 <br>
 1. Go to instance dir :<br>
 #cd instance/<br>
-#python3 admin_panel_acc_creation.py<br><br><br>
-follow the instructions <br>
+#python3 admin_panel_acc_creation.py<br>
+follow the instructions <br><br>
 example :<br>
 </t> login : admin <br>
 </t> password : 1234 <br>
