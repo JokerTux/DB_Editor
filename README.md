@@ -29,7 +29,7 @@ UBUNTU SERVER :<br>
 </t>   change the value inside ''<br>
 </t>   Press ESC <br>
 </t>   #<shift> G <br>
-</t>   #i
+</t>   #i<br>
 </t>   change the IP adress and port value if needed<br>
 </t>   Press ESC <br>
 </t>   #:wq
