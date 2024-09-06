@@ -24,10 +24,10 @@ UBUNTU SERVER :<br>
 
 6. Change IP and the secret key : <br>
 #vim main.py <br>
-</t>   #? CHANGE ME <enter><br>
+</t>   #? CHANGE ME <br>
 </t>   #change the value inside ''<br>
 </t>   #<shift> G <br>
-</t>   #<arrow up> change the IP adress value<br>
+</t>   #change the IP adress value<br>
 </t>   #:wq
  
 7. Start the website :<br>
