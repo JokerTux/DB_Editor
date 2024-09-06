@@ -250,5 +250,5 @@ def login():
 
 
 if __name__ == "__main__":
-    app.run('192.168.0.137', '9999')
+    app.run('0.0.0.0', '9999')
     app.run(debug=True)
