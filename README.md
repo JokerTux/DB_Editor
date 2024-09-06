@@ -46,7 +46,7 @@ pip3 install -r requirements.txt
 vim main.py
 ```
 
-- Search for `#? CHANGE ME`
+- Search for `? CHANGE ME`
 - Press `i` to enter insert mode and change the value inside `''`
 - Press `ESC`
 - Scroll to the bottom by pressing `G`
@@ -79,6 +79,6 @@ Example:
 
 - **Login:** `admin`
 - **Password:** `1234`
-- If **admin**, press `1`; if **moderator**, press `0`: `1`
+- If **admin**, press 1; if **moderator**, press 0: `1`
 
 **DONE!** :)
