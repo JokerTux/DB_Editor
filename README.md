@@ -6,7 +6,7 @@ UBUNTU SERVER :<br>
 #sudo apt-get update<br>
 #sudo apt-get upgrade
 
-2. Make a directory :<br>
+2. Create a directory :<br>
 #mkdir my_app<br>
 #cd my_app/
 
