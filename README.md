@@ -37,4 +37,5 @@ UBUNTU SERVER :<br>
 7. Start the website :<br>
 #python3 main.py
 
-8. GLHF ! 
+
+GLHF ! 
